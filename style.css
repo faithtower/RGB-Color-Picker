@@ -94,3 +94,13 @@ footer{
     text-align: center;
     color: #ddd;
 }
+
+@media (max-width: 576px){
+    section{
+        display: block;
+    }
+    #gradientBtn, #solidBtn{
+        margin-top: 10px;
+        width: 100%;
+    }
+}
