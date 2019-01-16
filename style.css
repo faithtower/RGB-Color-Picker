@@ -1,0 +1,96 @@
+body{
+    background-color: #232323;
+}
+header{
+    background-color: rgb(29, 46, 48);
+    color: #eee;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: normal;
+}
+header h4{
+    text-transform: uppercase;
+}
+.rgb{
+    background-color: #ddd;
+    padding: 0 20px;
+    border-radius: 10%;
+}
+.r{
+    color: red;
+}
+.g{
+    color: green;
+}
+.b{
+    color:blue;
+}
+section{
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+#solidBtn, #gradientBtn{
+    color: #fff;
+    background-color: steelblue;
+    font-size: 24px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color:  rgb(29, 46, 48); 
+    transition: all .5s;
+}
+
+#gradientBtn{
+    background: linear-gradient(45deg, rgb(198, 8, 153), rgb(8, 153, 198));
+}
+#gradientBtn:hover, #solidBtn:hover{
+    transform: translateY(-3px);
+    background-color:  rgb(29, 46, 80);
+}
+
+.degSection{
+    background-color:  rgb(29, 46, 48);
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+}
+#gradientDeg{
+    width: 60px;
+    font-size: 20px;
+    background: rgb(29, 58, 60);
+    border: none;
+    color: #999;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.box{
+    height: 120px;
+    border-radius: 10%;
+    border: solid 1px #999;
+    box-shadow: 2px 2px 4px #333;
+    color: #999;
+}
+.boxColor, .boxValue{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+}
+.boxColor{
+    height: 60px;
+    margin-bottom: 5px;
+}
+.boxValue{
+    height: 50px;
+}
+
+footer{
+    background-color:  rgb(29, 46, 48);
+    text-align: center;
+    color: #ddd;
+}
